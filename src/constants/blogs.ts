@@ -2,7 +2,7 @@ export const BLOGS = [
     {
         title: "Trackify in pitch competition at AFTS Accra",
         desc: "Organize your design system with clear, maintainable layers for better scalability.",
-        image: "/images/blog1.svg",
+        image: "/images/afts2.jpg",
         category: "Design System",
         author: "Sarah Leeman",
         authorRole: "Marketing Leader",

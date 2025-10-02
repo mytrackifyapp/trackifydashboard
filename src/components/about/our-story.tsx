@@ -20,7 +20,7 @@ const OurStory = () => {
                         </Container>
                         <Container delay={0.1} className="flex grow">
                             <h2 className="text-3xl md:text-4xl font-semibold text-left mt-4">
-                                Expers in SaaS Development and Customer Success
+                            Experts in Fintech Innovation and Customer Success
                             </h2>
                         </Container>
                         <Container delay={0.3} className="mt-auto">
@@ -35,7 +35,8 @@ const OurStory = () => {
                                     />
                                 </div>
                                 <p className="text-base md:text-lg text-muted-foreground text-left mt-2 max-w-2xl">
-                                    We are a team of experienced professionals in SaaS development and customer success
+                                At Trackify Finance, we are a passionate team of builders, innovators, 
+                                and finance enthusiasts committed to transforming the way people manage money.
                                 </p>
                             </div>
                         </Container>
@@ -51,10 +52,10 @@ const OurStory = () => {
                             </div>
                             <div className="flex-1">
                                 <h4 className="text-xl lg:text-2xl font-semibold font-heading">
-                                    12 Years of intense research
+                                 Years of collective & focused fintech / AI research
                                 </h4>
                                 <div className="mt-2 text-base text-neutral-400">
-                                    Our journey began over a decade ago, driven by a passion for innovation and a commitment to excellence in SaaS solutions.
+                                Our journey began with a simple question: How can technology help people take control of their finances with less stress? Since then, we’ve been continuously researching, testing, and improving solutions that make financial management effortless.
                                 </div>
                             </div>
                         </Container>
@@ -71,7 +72,7 @@ const OurStory = () => {
                                     experience
                                 </h4>
                                 <div className="mt-2 text-base text-neutral-400">
-                                    Our team continuously adapts to the ever-changing landscape of technology and the evolving needs of our customers.
+                                Our team brings together years of experience in software development, design, and customer support. But more importantly, we stay close to our users — learning from their needs and evolving our platform to deliver real value every day.
                                 </div>
                             </div>
                         </Container>
@@ -87,7 +88,7 @@ const OurStory = () => {
                                     Growing team day by day
                                 </h4>
                                 <div className="mt-2 text-base text-neutral-400">
-                                    Our team is growing every day to achieve even better results for our clients.
+                                Trackify is growing fast - not just in numbers, but in ideas, skills, and ambition. Every new team member helps us push further toward our mission: building the most user-friendly and intelligent personal finance platform for the modern world.
                                 </div>
                             </div>
                         </Container>

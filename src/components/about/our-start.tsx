@@ -24,12 +24,13 @@ const OurStart = () => {
                     <Container delay={0.3} className="max-w-2xl mx-auto">
                         <p className="text-base md:text-lg text-muted-foreground text-left md:text-center mt-4 max-w-2xl">
                             <span className="text-balance">
-                                Our journey began over a decade ago, driven by a passion for innovation and a commitment to excellence in SaaS solutions. Our team continuously adapts to the ever-changing landscape of technology and the evolving needs of our customers.
+                            Trackify was born from a simple idea: managing money shouldn’t feel complicated or overwhelming. Too many people struggle with budgets, scattered expenses, and the growing challenge of tracking both traditional and digital assets. We set out to change that.
                             </span>
                             <br />
                             <br />
                             <span className="mt-4 text-balance">
-                                We are a team of experienced professionals in SaaS development and customer success. Our team is growing every day to achieve even better results for our clients.
+                            
+What started as a small team of innovators and finance enthusiasts has grown into a company committed to building smart, intuitive, and secure tools for personal finance management.
                             </span>
                         </p>
                     </Container>

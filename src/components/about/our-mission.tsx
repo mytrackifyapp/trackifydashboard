@@ -21,15 +21,15 @@ const OurMission = () => {
                         </Container>
                         <Container delay={0.1}>
                             <h2 className="text-3xl md:text-4xl font-semibold text-left tracking-tight mt-4">
-                                We’re on a mission to power customers
+                            We’re on a Mission to Empower People With Smarter Finance
                             </h2>
                         </Container>
                         <Container delay={0.3}>
                             <p className="text-base md:text-lg text-muted-foreground text-left mt-2 max-w-2xl">
-                                Every day, we work to empower businesses to grow and succeed. We’re committed to providing the best possible experience for our customers, and we’re always looking for new ways to improve.
+                            Every day, we work to help individuals and businesses take control of their money. Whether it’s managing expenses, building budgets, or making seamless crypto-to-fiat payments, we’re committed to delivering the best possible financial experience.
                             </p>
                             <p className="text-base lg:text-lg font-normal text-muted-foreground mt-4">
-                                From the first day we started, we’ve been committed to helping businesses grow and succeed.
+                            From day one, our focus has been clear: simplify finance, unlock insights, and empower smarter decisions.
                             </p>
                         </Container>
                     </div>

@@ -1,5 +1,5 @@
 
-import { HelpCircleIcon, LineChartIcon, Link2Icon, LockIcon, NewspaperIcon, QrCodeIcon } from "lucide-react";
+import { HelpCircleIcon, LineChartIcon, Link2Icon, LockIcon, NewspaperIcon, QrCodeIcon,  DatabaseZap,  ScrollText } from "lucide-react";
 
 export const NAV_LINKS = [
     {
@@ -53,8 +53,14 @@ export const NAV_LINKS = [
             {
                 title: "White Paper",
                 tagline: "Get answers to your questions.",
-                href: "/resources/help",
-                icon: HelpCircleIcon,
+                href: "/whitepaper",
+                icon:  ScrollText,
+            },
+            {
+                title: "Developer Api",
+                tagline: "Get answers to your questions.",
+                href: "/developer",
+                icon:  DatabaseZap,
             },
         ]
     },

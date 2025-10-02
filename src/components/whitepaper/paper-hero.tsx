@@ -6,7 +6,7 @@ import Container from "../global/container";
 import { Button } from "../ui/button";
 import { CheckCircle2Icon } from "lucide-react";
 
-const AboutHero = () => {
+const PaperHero = () => {
     return (
         <div className="relative z-0 w-full h-full">
 
@@ -19,24 +19,24 @@ const AboutHero = () => {
                             <div className="flex items-center justify-center gap-x-1 px-2 py-1.5 relative w-max mx-auto md:mx-0 rounded-full before:absolute before:inset-0 before:-z-10 before:p-[1px] before:rounded-3xl before:bg-gradient-to-b before:from-neutral-700 before:to-neutral-900 before:content-[''] after:absolute after:inset-[1px] after:-z-10 after:rounded-[22px] after:bg-[#181818]/60">
                                 <Icons.stars className="size-5" />
                                 <span className="text-sm text-white">
-                                    Trackify Product Overview
+                                    Trackify White paper
                                 </span>
                             </div>
                         </Container>
 
                         <Container delay={0.1}>
                             <h2 className="text-balance !leading-[1.25] text-4xl md:text-6xl font-semibold tracking-tight text-center lg:text-left mt-6 w-full">
-                                Learn About our <br className="hidden lg:inline-block" /> Global Tech Team
+                            Vision-Driven AI Innovation
                             </h2>
                         </Container>
 
                         <Container delay={0.2}>
                             <p className="text-base lg:text-lg text-muted-foreground text-center lg:text-left mt-4 max-w-2xl mx-auto lg:mx-0">
-                            Discover how Trackify Finance is transforming personal and business money management with AI-powered insights, budgeting tools, and seamless fintech solutions.
+                            Today’s financial world is divided: traditional money on one side, digital assets on the other. Trackify bridges that gap, giving people a single platform to track, plan, and grow their finances. This white paper explains how.
                             </p>
                         </Container>
 
-                        <Container delay={0.3}>
+                        {/* <Container delay={0.3}>
                             <div className="hidden lg:flex flex-col gap-2 mt-6">
                                 <div className="flex items-center gap-2">
                                     <CheckCircle2Icon className="size-4 text-primary" />
@@ -51,12 +51,12 @@ const AboutHero = () => {
                                     </span>
                                 </div>
                             </div>
-                        </Container>
+                        </Container> */}
 
                         <Container delay={0.3}>
                             <div className="mt-6 flex justify-center lg:justify-start">
                                 <Button size="md">
-                                    Get started for free
+                                Request early access to our white paper
                                 </Button>
                             </div>
                         </Container>
@@ -76,7 +76,7 @@ const AboutHero = () => {
                         </div>
                     </Container>
                 </div>
-
+{/* 
                 <Container delay={0.4}>
                     <div className="grid grid-cols-3 lg:place-items-stretch mt-16 lg:mt-24">
                         <div className="flex flex-col items-center justify-center gap-2">
@@ -104,10 +104,11 @@ const AboutHero = () => {
                             </h3>
                         </div>
                     </div>
-                </Container>
+                </Container> */}
+
             </Wrapper>
         </div>
     )
 };
 
-export default AboutHero
+export default PaperHero

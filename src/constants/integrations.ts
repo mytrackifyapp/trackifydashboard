@@ -26,74 +26,74 @@ export const INTEGRATION_CATEGORIES = [
 
 export const INTEGRATIONS: Integration[] = [
     {
-        name: "Slack",
-        description: "Connect and collaborate with your team in real-time through Slack integration.",
-        icon: "/icons/slack.svg",
-        category: "social"
-    },
-    {
-        name: "Snapchat",
-        description: "Automate your workflows by connecting Verve with thousands of apps through Snapchat.",
-        icon: "/icons/snapchat.svg",
-        category: "api"
-    },
-    {
-        name: "Reddit",
-        description: "Share and engage with the Reddit community directly from your Verve dashboard.",
-        icon: "/icons/reddit.svg",
-        category: "social"
-    },
-    {
-        name: "Discord",
-        description: "Build community and manage your Discord server with powerful integration tools.",
-        icon: "/icons/discord.svg",
-        category: "social"
-    },
-    {
-        name: "Layers",
-        description: "Manage your business presence and reviews across Layers platforms seamlessly.",
-        icon: "/icons/new.svg",
-        category: "crm"
-    },
-    {
-        name: "Figma",
-        description: "Design and prototype your projects with direct Figma integration support.",
-        icon: "/icons/figma.svg",
-        category: "api"
-    },
-    {
-        name: "Apple",
-        description: "Integrate your apps with Apple services and iOS ecosystem features.",
+        name: "Apple Pay",
+        description: "Instantly add your Trackify virtual card to Apple Wallet for quick, secure mobile payments.",
         icon: "/icons/apple.svg",
         category: "api"
     },
     {
-        name: "Facebook",
-        description: "Connect with your audience through comprehensive Facebook platform integration.",
-        icon: "/icons/facebook.svg",
+        name: "Google Pay",
+        description: "Simplify payments on Android by integrating Trackify virtual cards with Google Pay.",
+        icon: "/icons/google-pay.png",
+        category: "api"
+    },
+    {
+        name: "Auth0",
+        description: "Secure authentication and card usage with advanced identity management via Auth0.",
+        icon: "/icons/auth.png",
+        category: "api"
+    },
+    {
+        name: "MTN Mobile Money",
+        description: "Add funds to Trackify virtual cards via MTN MoMo, making it easier for users across Africa to transact.",
+        icon: "/icons/momo.png",
+        category: "api"
+    },
+    {
+        name: "mastercard",
+        description: "Secure, flexible, and recognized everywhere Mastercard is accepted.",
+        icon: "/icons/master.svg",
+        category: "crm"
+    },
+    {
+        name: "Visa",
+        description: "Shop, subscribe, and pay across millions of merchants worldwide with Trackify Visa..",
+        icon: "/icons/visa.svg",
+        category: "api"
+    },
+    {
+        name: "Netflix",
+        description: "Pay for your Netflix subscription securely using Trackify virtual cards, without worrying about declined local cards.",
+        icon: "/icons/netflix.png",
         category: "social"
     },
     {
-        name: "Threads",
-        description: "Showcase your design work and connect with the Threads creative community.",
-        icon: "/icons/threads.svg",
+        name: "Plaid",
+        description: "Connect bank accounts securely with Plaid to fund and manage Trackify virtual cards.",
+        icon: "/icons/plaid.webp",
+        category: "api"
+    },
+    {
+        name: "spotify",
+        description: "Subscribe to Spotify Premium and enjoy unlimited music access worldwide, powered by Trackify cards.",
+        icon: "/icons/spotify.png",
         category: "social"
     },
     {
         name: "Meta",
-        description: "Access Meta's suite of tools and platforms for enhanced social engagement.",
+        description: "Run and manage ad campaigns on Facebook and Instagram by linking Trackify virtual cards",
         icon: "/icons/meta.svg",
         category: "social"
     },
     {
         name: "LinkedIn",
-        description: "Build your professional network and share updates via LinkedIn integration.",
+        description: "Upgrade to LinkedIn Premium or run recruitment/brand campaigns easily with Trackify cards",
         icon: "/icons/linkedin.svg",
         category: "social"
     },
     {
         name: "Snapchat",
-        description: "Engage with younger audiences through Snapchat's creative tools and features.",
+        description: "Fund Snapchat Ads or subscription features with Trackify virtual cards to reach younger, engaged audiences.",
         icon: "/icons/snapchat.svg",
         category: "social"
     }
