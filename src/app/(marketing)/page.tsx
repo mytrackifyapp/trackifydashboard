@@ -35,7 +35,7 @@ const HomePage = () => {
             <Faq />
             <Stats />
             <Testimonials />
-            <Blogs />
+          
             <CTA />
             </Wrapper>
             </Background >
