@@ -26,7 +26,7 @@ const HowItWorks = () => {
                             <div className="flex flex-col p-6 lg:p-8 h-full">
                                 <div className="flex items-center justify-between w-full">
                                     <Image
-                                        src="/images/hiw01.svg"
+                                        src="/images/arrow.jpg"
                                         alt="01"
                                         width={1024}
                                         height={1024}
@@ -48,7 +48,7 @@ const HowItWorks = () => {
                             <div className="flex w-full">
                                 <div className="w-full border border-border/50 rounded-lg">
                                     <Image
-                                        src="/images/hiw1.svg"
+                                        src="/images/cash.jpg"
                                         alt="01"
                                         width={1024}
                                         height={1024}
@@ -62,7 +62,7 @@ const HowItWorks = () => {
                             <div className="flex w-full">
                                 <div className="w-full border border-border/50 rounded-lg">
                                     <Image
-                                        src="/images/hiw2.svg"
+                                        src="/images/coins.jpg"
                                         alt="02"
                                         width={1024}
                                         height={1024}
@@ -120,7 +120,7 @@ const HowItWorks = () => {
                             <div className="flex w-full">
                                 <div className="w-full border border-border/50 rounded-lg">
                                     <Image
-                                        src="/images/hiw3.svg"
+                                        src="/images/spark.png"
                                         alt="03"
                                         width={1024}
                                         height={1024}
@@ -139,7 +139,7 @@ const HowItWorks = () => {
                                     Simplifying finance management <br className="hidden lg:block" /> with AI
                                 </h3>
                                 <Button size="md" variant="black" className="mt-6">
-                                    Chat with Trackify AI
+                                    Soon
                                 </Button>
                             </div>
                         </div>

@@ -11,7 +11,7 @@ const Features = () => {
                 <Container>
                     <div className="flex flex-col items-start justify-start lg:items-center lg:justify-center">
                         <h2 className="text-3xl lg:text-4xl font-semibold text-left lg:text-center tracking-tight">
-                        A better way to manage money <br /> more customers
+                        A better way to manage  <br /> Personal Finance
                         </h2>
                         <p className="text-base lg:text-lg font-normal text-muted-foreground text-left lg:text-center max-w-md mt-2">
                         Trackify empowers you to take full control of your finances from daily expenses to long-term investments — with a sleek, AI-powered dashboard built for simplicity and insight.

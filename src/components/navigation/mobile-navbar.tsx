@@ -44,10 +44,10 @@ const MobileNavbar = () => {
                     <div className="flex flex-col items-start w-full py-2 mt-10">
                         <div className="flex items-center justify-evenly w-full space-x-2">
                             {/* Static version of user-related content */}
-                            <Link href="/auth/sign-in" className={buttonVariants({ variant: "outline", className: "w-full" })}>
+                            <Link href="https://app.mytrackify.com/sign-in" className={buttonVariants({ variant: "outline", className: "w-full" })}>
                                 Sign In
                             </Link>
-                            <Link href="/auth/sign-up" className={buttonVariants({ className: "w-full" })}>
+                            <Link href="https://app.mytrackify.com/sign-up" className={buttonVariants({ className: "w-full" })}>
                                 Sign Up
                             </Link>
                         </div>

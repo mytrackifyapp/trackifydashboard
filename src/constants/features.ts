@@ -12,17 +12,17 @@ export const FEATURES = [
     {
         title: "Smart Receipt Scanner",
         desc: "Extract data automatically from receipts using advanced AI technology",
-        icon: "/icons/label.svg",
+        icon: "/icons/stars.svg",
     },
     {
         title: "Know Your Total Income.",
         desc: " Sync your income sources — salaries, freelance gigs, passive earnings into one clean view. Get a full picture of how much you earn monthly and annually.",
-        icon: "/icons/crown.svg",
+        icon: "/icons/edit.svg",
     },
     {
         title: "Meet Your AI Personal CFO",
         desc: "Our AI-powered financial assistant analyzes your spending patterns, identifies saving opportunities, and provides personalized recommendations to help you achieve your financial goals.",
-        icon: "/icons/cursor.svg",
+        icon: "/icons/crown.svg",
     },
     {
         title: "Stay on Top of Investments",

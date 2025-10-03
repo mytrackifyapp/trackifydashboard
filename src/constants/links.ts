@@ -4,12 +4,12 @@ export const NAV_LINKS = [
         link: "/about",
     },
     {
-        name: "Integrations",
+        name: "Virtual Card",
         link: "/integrations",
     },
     {
-        name: "Pricing",
-        link: "/pricing",
+        name: "white paper",
+        link: "/whitepaper",
     },
     {
         name: "Blog",
@@ -20,14 +20,14 @@ export const NAV_LINKS = [
 export const PRODUCT_LINKS = [
     { label: "About", href: "/about" },
     { label: "Integrations", href: "/integrations" },
-    { label: "Pricing", href: "/pricing" },
+    // { label: "Pricing", href: "/pricing" },
     { label: "Demo", href: "/contact" },
 ];
 
 export const RESOURCES_LINKS = [
     { label: "Blog", href: "/blog" },
-    { label: "Help Center", href: "/help" },
-    { label: "White paper", href: "/docs" },
+    { label: "Api Key", href: "/developer" },
+    { label: "White paper", href: "/whitepaper" },
     { label: "Contact Us", href: "/contact" },
 ];
 
