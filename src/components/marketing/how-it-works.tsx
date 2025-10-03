@@ -38,7 +38,7 @@ const HowItWorks = () => {
                                 </div>
                                 <div className="flex flex-col justify-end gap-1.5 mt-6 lg:mt-auto grow h-full">
                                     <h4 className="text-xl lg:text-2xl font-medium">
-                                    Expense Tracking, <br /> not a machine
+                                    Expense Tracking, <br /> with ease
                                     </h4>
                                     <p className="text-sm lg:text-base text-muted-foreground text-balance">
                                     Easily track and categorize all your expenses in one place. Get a clear picture of where your money is going.
@@ -120,7 +120,7 @@ const HowItWorks = () => {
                             <div className="flex w-full">
                                 <div className="w-full border border-border/50 rounded-lg">
                                     <Image
-                                        src="/images/spark.png"
+                                        src="/images/track.jpg"
                                         alt="03"
                                         width={1024}
                                         height={1024}

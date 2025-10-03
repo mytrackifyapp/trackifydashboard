@@ -45,9 +45,11 @@ const CTA = () => {
                                 />
                             </div>
                             <div className="flex items-center gap-4 mt-6">
+                            <a href="https://app.mytrackify.com/sign-up" target="_blank" rel="noopener noreferrer">
                                 <Button size="lg">
                                     Get Started
                                 </Button>
+                                </a>
                                 <div className="flex flex-col">
                                     <span className="text-sm text-muted-foreground">
                                         4.80/5 <br /> From 300+ Customer Reviews

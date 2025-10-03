@@ -2,36 +2,36 @@
 import { HelpCircleIcon, LineChartIcon, Link2Icon, LockIcon, NewspaperIcon, QrCodeIcon,  DatabaseZap,  ScrollText } from "lucide-react";
 
 export const NAV_LINKS = [
-    {
-        title: "Features",
-        href: "/features",
-        menu: [
-            {
-                title: "Sell & Pitch ",
-                tagline: "Get a Portfolio and track your bookings.",
-                href: "/features/link-shortening",
-                icon: Link2Icon,
-            },
-            {
-                title: "SME ",
-                tagline: "Accept crypto payments for your products in sec",
-                href: "/features/password-protection",
-                icon: LockIcon,
-            },
-            {
-                title: "Trackify Web 3",
-                tagline: "Gain insights into who is clicking your links.",
-                href: "/features/analytics",
-                icon: LineChartIcon,
-            },
-            {
-                title: "Trackify AI",
-                tagline: "Use QR codes to reach your audience.",
-                href: "/features/qr-codes",
-                icon: QrCodeIcon,
-            },
-        ],
-    },
+    // {
+    //     title: "Features",
+    //     href: "/features",
+    //     menu: [
+    //         {
+    //             title: "Sell & Pitch ",
+    //             tagline: "Get a Portfolio and track your bookings.",
+    //             href: "/features/link-shortening",
+    //             icon: Link2Icon,
+    //         },
+    //         {
+    //             title: "SME ",
+    //             tagline: "Accept crypto payments for your products in sec",
+    //             href: "/features/password-protection",
+    //             icon: LockIcon,
+    //         },
+    //         {
+    //             title: "Trackify Web 3",
+    //             tagline: "Gain insights into who is clicking your links.",
+    //             href: "/features/analytics",
+    //             icon: LineChartIcon,
+    //         },
+    //         {
+    //             title: "Trackify AI",
+    //             tagline: "Use QR codes to reach your audience.",
+    //             href: "/features/qr-codes",
+    //             icon: QrCodeIcon,
+    //         },
+    //     ],
+    // },
     {
         title: "Virtual Cards",
         href: "/integrations",

@@ -53,16 +53,20 @@ const AboutHero = () => {
                             </div>
                         </Container>
 
-                        <Container delay={0.3}>
-                            <div className="mt-6 flex justify-center lg:justify-start">
-                                <Button size="md">
-                                    Get started for free
-                                </Button>
-                            </div>
-                        </Container>
-                    </div>
+                   
+                    <Container delay={0.3}>
+  <div className="mt-6 flex justify-center lg:justify-start">
+    <a href="mailto:hey@mytrackify.com?subject=Application&body=Hello,%20I%20am%20interested%20in%20partnering.">
+      <Button size="md">
+        Work with us
+      </Button>
+    </a>
+  </div>
+</Container>
+</div>
 
-                    <Container className="w-full z-30">
+
+                    {/* <Container className="w-full z-30">
                         <div className="">
                             <Image
                                 src="/images/about/hero.svg"
@@ -74,7 +78,7 @@ const AboutHero = () => {
                                 className="w-full h-full"
                             />
                         </div>
-                    </Container>
+                    </Container> */}
                 </div>
 
                 <Container delay={0.4}>
