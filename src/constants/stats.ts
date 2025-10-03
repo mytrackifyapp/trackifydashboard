@@ -1,7 +1,7 @@
 export const STATS = [
     {
         title: "Monthly Active Users",
-        value: "48M+",
+        value: "1000+",
         icon: "/icons/moon.svg"
     },
     {
@@ -10,8 +10,8 @@ export const STATS = [
         icon: "/icons/stars.svg"
     },
     {
-        title: "Successful Integrations",
-        value: "22K+",
+        title: "Budget campaigns managed",
+        value: "12K+",
         icon: "/icons/edit.svg"
     }
 ];
