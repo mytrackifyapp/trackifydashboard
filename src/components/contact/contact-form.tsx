@@ -1,11 +1,11 @@
-import React from 'react'
-import Wrapper from "../global/wrapper"
-import Container from "../global/container"
-import { Button } from "../ui/button"
-import { Input } from "../ui/input"
-import { Label } from "../ui/label"
-import { Textarea } from "../ui/textarea"
-import { UploadIcon } from "lucide-react"
+import React from "react";
+import Wrapper from "../global/wrapper";
+import Container from "../global/container";
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
+import { Label } from "../ui/label";
+import { Textarea } from "../ui/textarea";
+import { UploadIcon } from "lucide-react";
 
 const ContactForm = () => {
     return (
@@ -20,90 +20,98 @@ const ContactForm = () => {
                 </Container>
 
                 <Container delay={0.2}>
-                    <form className="max-w-3xl mx-auto w-full mt-10 space-y-4">
+                    <form
+                        action="https://formspree.io/f/mpwylapp" 
+                        method="POST"
+                          target="_blank"
+                          enctype="multipart/form-data"
+                        className="max-w-3xl mx-auto w-full mt-10 space-y-4"
+                    >
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                                <Label htmlFor="firstName">
-                                    First Name*
-                                </Label>
+                                <Label htmlFor="firstName">First Name*</Label>
                                 <Input
                                     id="firstName"
+                                    name="firstName"
                                     placeholder="John"
                                     className="bg-[#0A0A0A] border-border/50"
+                                    required
                                 />
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="lastName">
-                                    Last Name*
-                                </Label>
+                                <Label htmlFor="lastName">Last Name*</Label>
                                 <Input
                                     id="lastName"
+                                    name="lastName"
                                     placeholder="Doe"
                                     className="bg-[#0A0A0A] border-border/50"
+                                    required
                                 />
                             </div>
                         </div>
 
                         <div className="space-y-2">
-                            <Label htmlFor="subject">
-                                Subject*
-                            </Label>
+                            <Label htmlFor="subject">Subject*</Label>
                             <Input
                                 id="subject"
+                                name="subject"
                                 placeholder="Type your subject here"
                                 className="bg-[#0A0A0A] border-border/50"
+                                required
                             />
                         </div>
 
                         <div className="space-y-2">
-                            <Label htmlFor="workEmail">
-                                Work Email*
-                            </Label>
+                            <Label htmlFor="workEmail">Work Email*</Label>
                             <Input
                                 id="workEmail"
+                                name="workEmail"
                                 type="email"
                                 placeholder="johndoe@example.com"
                                 className="bg-[#0A0A0A] border-border/50"
+                                required
                             />
                         </div>
 
                         <div className="space-y-2">
-                            <Label htmlFor="message">
-                                How can we help you?*
-                            </Label>
+                            <Label htmlFor="message">How can we help you?*</Label>
                             <Textarea
                                 id="message"
+                                name="message"
                                 placeholder="Type your message here..."
                                 className="min-h-[150px] bg-[#0A0A0A] border-border/50 resize-none"
+                                required
                             />
                         </div>
 
                         <div className="flex flex-col gap-2">
-                            <label
-                                htmlFor="file-upload"
-                                className="flex items-center justify-center gap-2 px-4 py-8 rounded-lg border border-dashed border-border/50 bg-[#0A0A0A] cursor-pointer"
-                            >
-                                <UploadIcon className="size-5 text-muted-foreground" />
-                                <span className="text-sm text-muted-foreground">
-                                    Drop your files here or click to upload
-                                </span>
-                                <input
-                                    id="file-upload"
-                                    type="file"
-                                    multiple
-                                    className="hidden"
-                                />
-                            </label>
-                        </div>
+        <label
+            htmlFor="file-upload"
+            className="flex items-center justify-center gap-2 px-4 py-8 rounded-lg border border-dashed border-border/50 bg-[#0A0A0A] cursor-pointer"
+        >
+            <UploadIcon className="size-5 text-muted-foreground" />
+            <span className="text-sm text-muted-foreground">
+                Drop your images here or click to upload
+            </span>
+            <input
+                id="file-upload"
+                type="file"
+                name="attachment"
+                accept="image/*"
+                multiple
+                className="hidden"
+            />
+        </label>
+    </div>
 
-                        <Button className="w-full">
+                        <Button type="submit" className="w-full">
                             Submit
                         </Button>
                     </form>
                 </Container>
             </Wrapper>
         </div>
-    )
+    );
 };
 
-export default ContactForm
+export default ContactForm;
