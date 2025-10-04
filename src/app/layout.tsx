@@ -4,6 +4,7 @@ import { base, heading } from "@/constants/fonts";
 import { cn } from "@/lib";
 import "@/styles/globals.css";
 import { generateMetadata } from "@/utils";
+import { Analytics } from "@vercel/analytics/next"
 
 
 export const metadata = generateMetadata();
@@ -14,7 +15,6 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-
         
        
         <html lang="en" suppressHydrationWarning>
@@ -25,6 +25,7 @@ export default function RootLayout({
                     heading.variable,
                 )}
             >
+                <Analytics/>
                 <Providers>
                     {children}
                 </Providers>
