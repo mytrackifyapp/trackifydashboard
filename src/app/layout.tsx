@@ -9,12 +9,8 @@ export const metadata = generateMetadata();
 
 export default function RootLayout({
     children,
-    params,
-    searchParams,
 }: {
     children: React.ReactNode;
-    params?: { [key: string]: string };
-    searchParams?: { [key: string]: string | string[] | undefined };
 }) {
     return (
         <html lang="en" suppressHydrationWarning>
