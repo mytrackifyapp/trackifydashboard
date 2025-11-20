@@ -23,8 +23,8 @@ const ContactForm = () => {
                     <form
                         action="https://formspree.io/f/mpwylapp" 
                         method="POST"
-                          target="_blank"
-                          enctype="multipart/form-data"
+                        target="_blank"
+                        encType="multipart/form-data"
                         className="max-w-3xl mx-auto w-full mt-10 space-y-4"
                     >
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
