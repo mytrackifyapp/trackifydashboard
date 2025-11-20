@@ -45,7 +45,7 @@ const Hero = () => {
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline" className="hidden md:flex">
-                        <Link href="#">
+                        <Link href="#features">
                             How it works
                         </Link>
                     </Button>

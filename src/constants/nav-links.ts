@@ -37,6 +37,10 @@ export const NAV_LINKS = [
         href: "/integrations",
     },
     {
+        title: "Creators",
+        href: "/creators",
+    },
+    {
         title: "About",
         href: "/about",
     },

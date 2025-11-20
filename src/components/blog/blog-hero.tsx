@@ -20,7 +20,7 @@ const BlogHero = () => {
 
                     <Container delay={0.1}>
                         <h2 className="text-balance !leading-[1.25] text-center text-4xl md:text-6xl font-semibold tracking-tight mt-6 w-full">
-                            Trackify Blog: <br className="hidden lg:inline-block" /> Free Virtual card With Trackify
+                            Trackify Blog: <br className="hidden lg:inline-block" />
                         </h2>
                     </Container>
 
