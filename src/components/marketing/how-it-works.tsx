@@ -3,6 +3,7 @@ import Wrapper from "../global/wrapper";
 import Container from "../global/container";
 import Image from "next/image";
 import { Button } from "../ui/button";
+import { Sparkles } from "lucide-react";
 
 const HowItWorks = () => {
     return (
@@ -138,8 +139,11 @@ const HowItWorks = () => {
                                 <h3 className="text-3xl lg:text-4xl font-semibold tracking-tight text-black">
                                     Simplifying finance management <br className="hidden lg:block" /> with AI
                                 </h3>
-                                <Button size="md" variant="black" className="mt-6">
-                                    Soon
+                                <Button size="md" variant="black" className="mt-6" asChild>
+                                    <a href="/finna" className="flex items-center gap-2">
+                                        <Sparkles className="size-4" />
+                                        Introducing Finna
+                                    </a>
                                 </Button>
                             </div>
                         </div>

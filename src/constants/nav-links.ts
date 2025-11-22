@@ -41,6 +41,14 @@ export const NAV_LINKS = [
         href: "/creators",
     },
     {
+        title: "Finna AI",
+        href: "/finna",
+    },
+    {
+        title: "White-Label",
+        href: "/whitelabeling",
+    },
+    {
         title: "About",
         href: "/about",
     },

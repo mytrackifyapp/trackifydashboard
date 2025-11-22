@@ -48,7 +48,7 @@ const Navbar = () => {
                 <MaxWidthWrapper className="flex items-center justify-between">
                 <div className="flex items-center space-x-12">
   <Link href="/#home" className="flex items-center gap-6">
-      <span className="text-xl md:text-2xl font-bold font-heading tracking-tight text">
+      <span className="text-xl md:text-1xl font-bold font-heading tracking-tight text">
       Trackify Finance
     </span>
     </Link>
